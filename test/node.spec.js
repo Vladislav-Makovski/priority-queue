@@ -188,7 +188,7 @@ describe('Node', () => {
 		});
 
 		it('maintains correct state of parent.parent.left and parent.parent.right', () => {
-			const root = new Node(15, 42);
+			const root = new Node(15, 42);0
 			const left = new Node(42, 15);
 			const right = new Node(13, 42);
 			const childOfLeft = new Node(13, 34);
